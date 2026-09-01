@@ -1,0 +1,14 @@
+.env
+
+# Local directories for development and testing.
+.backups/
+.cache/
+.config/
+.db/
+.documents/
+.logs/
+.media/
+.photos/
+.storage/
+.staticfiles/
+.thumbs/
