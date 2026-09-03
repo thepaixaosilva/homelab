@@ -1,0 +1,21 @@
+postgresql-ha:
+  enabled: false
+postgresql:
+  enabled: false
+redis-cluster:
+  enabled: false
+persistence:
+  enabled: true
+  size: 5Gi
+gitea:
+  admin:
+    existingSecret: gitea-admin
+  config:
+    database:
+      DB_TYPE: sqlite3
+    session:
+      PROVIDER: memory
+    cache:
+      ADAPTER: memory
+    queue:
+      TYPE: level

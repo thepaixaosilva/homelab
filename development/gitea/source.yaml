@@ -1,0 +1,5 @@
+repoURL: https://dl.gitea.com/charts/
+chart: gitea
+version: "12.7.0"
+requiredSecrets:
+  - name: gitea-admin
